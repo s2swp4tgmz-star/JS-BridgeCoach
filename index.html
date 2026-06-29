@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS BridgeCoach</title>
+</head>
+<body>
+  <h1>JS BridgeCoach v4.1</h1>
+  <p>Welkom bij de eerste online versie.</p>
+
+  <button onclick="startModule()">Start Module 2A – Controlebiedingen</button>
+
+  <div id="quiz"></div>
+
+  <script>
+    function startModule() {
+      document.getElementById("quiz").innerHTML = `
+        <h2>Module 2A – Controlebiedingen</h2>
+        <p><strong>Vraag 1</strong></p>
+        <p>Wanneer begin je met controlebiedingen?</p>
+        <button>Nadat de troefkleur vaststaat en er sleminteresse is</button>
+        <button>Altijd vanaf 16 punten</button>
+        <button>Na elke 1SA-opening</button>
+      `;
+    }
+  </script>
+</body>
+</html>
+Daarna onderaan:
